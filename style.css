@@ -13,7 +13,7 @@
 
 /* HEADER */
 .header {
-    background-color: #1a1a1a;
+    background-color: #2F4465;
     padding-top: 36px;
     padding-bottom: 200px;
 }
@@ -33,7 +33,6 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #1a1a1a;
     font-weight: bold;
 }
 
@@ -47,7 +46,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #d1d1d1;
+    color: #e7e7e7;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
@@ -61,9 +60,9 @@
 
 .header-subtitle-text {
     display: inline-block;
-    border-left: 1px solid #8c8c8c;
+    border-left: 1px solid #e7e7e7;
     padding: 8px 0 8px 20px;
-    color: #8c8c8c;
+    color: #e7e7e7;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -72,10 +71,10 @@
 }
 
 .header-title-text {
-    font-size: 90px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    max-width: 620px;
+    max-width: 700px;
     line-height: 1;
 }
 
@@ -108,6 +107,8 @@
 
 .card-info-img {
     display: flex;
+    width: 285px;
+    height: 400px;
 }
 
 .info-title {
@@ -122,7 +123,7 @@
 .info-subtitle {
     font-size: 13px;
     font-weight: bold;
-    color: #8c8c8c;
+    color: #e7e7e7;
     letter-spacing: 1.5px;
     display: block;
 }
@@ -158,7 +159,7 @@
 
 .about-subtitle {
     font-size: 13px;
-    color: #8c8c8c;
+    color: #e7e7e7;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -166,7 +167,7 @@
 }
 
 .audio-block {
-    background-color: #242424;
+    background-color: #364D72;
     display: flex;
     margin-top: 61px;
 }
