@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.body {
+    background-color: #002F55;
+}
+
 /* HEADER */
 .header {
     background-color: #2F4465;
@@ -49,7 +53,17 @@
     color: #e7e7e7;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.nav-links-4 a {
+    text-decoration: none;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
 }
 
 .header-title {
@@ -74,7 +88,7 @@
     font-size: 30px;
     font-weight: bold;
     color: white;
-    max-width: 700px;
+    max-width: 750px;
     line-height: 1;
 }
 
@@ -107,8 +121,8 @@
 
 .card-info-img {
     display: flex;
-    width: 285px;
-    height: 400px;
+    width: 320px;
+    height: 430px;
 }
 
 .info-title {
@@ -118,14 +132,16 @@
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
+    text-align: center;
 }
 
 .info-subtitle {
     font-size: 13px;
     font-weight: bold;
-    color: #e7e7e7;
+    color: #fff;
     letter-spacing: 1.5px;
     display: block;
+    text-align: center;
 }
 
 .about-subtitle-text {
@@ -141,9 +157,9 @@
 }
 
 .about-desc {
-    color: #d1d1d1;
-    max-width: 240px;
-    font-size: 14px;
+    color: #fff;
+    max-width: 480px;
+    font-size: 14.50px;
     line-height: 1.8;
 }
 
@@ -159,7 +175,7 @@
 
 .about-subtitle {
     font-size: 13px;
-    color: #e7e7e7;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -232,17 +248,24 @@
     bottom: 0;
 }
 
+/*asdfghjklasdfghjklasdfghjklasdfghjklasdfghjklasdfghjklasdfghjklasdfghjklasdfghjklasdfghjkl*/
+
+.main-content {
+    background-color: #002F55;
+}
+
 .course-selection-title {
     font-weight: 600;
-    font-size: 70px;
-    color:#1a1a1a;
-    margin: 60px 0;
+    font-size: 50px;
+    color:#87CEFA;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .course-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 
 .card-big {
@@ -250,7 +273,11 @@
 }
 
 .card-small {
-    width: 360px;
+    width: 420px;
+}
+
+.card-big-exc {
+    width: 525px;
 }
 
 .img-container {
@@ -266,22 +293,22 @@
 }
 
 .img-card-1 {
-    background-image: url(img/card-1.png);
+    background-image: url(img/partia.jpg);
     height: 360px;
 }
 
 .img-card-2 {
-    background-image: url(img/card-2.png);
+    background-image: url(img/rev_1905.jpg);
     height: 360px;
 }
 
 .img-card-3 {
-    background-image: url(img/card-3.png);
+    background-image: url(img/exs.jpg);
     height: 360px;
 }
 
 .img-card-4 {
-    background-image: url(img/card-4.png);
+    background-image: url(img/ph.jpg);
     height: 360px;
 }
 
@@ -304,10 +331,14 @@
     justify-content: space-evenly;
 }
 
+.course-card {
+    max-width: 600px;
+}
+
 .course-category {
     font-size: 13px;
     letter-spacing: 2px;
-    color: #bababa;
+    color: #AFDAFC;
     font-weight: 400;
     margin: 18px 0;
 }
@@ -316,14 +347,14 @@
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 0.3px;
-    color: #1a1a1a;
+    color: #87CEFA;
     margin-bottom: 20px;
 }
 
 .course-desc {
     font-size: 16px;
     font-weight: 400;
-    color: #767676;
+    color: #AFDAFC;
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
