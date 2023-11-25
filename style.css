@@ -7,19 +7,25 @@
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
-.body {
-    background-color: #002F55;
+.container-of-main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-of-header {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 /* HEADER */
 .header {
     background-color: #2F4465;
     padding-top: 36px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .navigation {
@@ -29,8 +35,8 @@
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -38,6 +44,13 @@
     align-items: center;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
 
 .navigation-holder {
@@ -50,20 +63,18 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #e7e7e7;
+    color: #dad8d8;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 12px;
     align-items: center;
+    max-width: 20px;
+    transition: 0.3s;
 }
 
-.nav-links-4 a {
-    text-decoration: none;
-    color: #e7e7e7;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 10px;
-    text-align: center;
+.nav-links a:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .header-title {
@@ -256,10 +267,10 @@
 
 .course-selection-title {
     font-weight: 600;
-    font-size: 50px;
-    color:#87CEFA;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    font-size: 58px;
+    color:#8fd2fc;
+    margin-bottom: 40px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -269,15 +280,11 @@
 }
 
 .card-big {
-    width: 540px;
+    width: 560px;
 }
 
 .card-small {
-    width: 420px;
-}
-
-.card-big-exc {
-    width: 525px;
+    width: 440px;
 }
 
 .img-container {
@@ -322,7 +329,7 @@
 }
 
 .btn-raiting {
-    width: 77px;
+    width: 125px;
     background-color: #111;
     border-radius: 5px;
     color: white;
@@ -332,7 +339,7 @@
 }
 
 .course-card {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .course-category {
@@ -344,31 +351,32 @@
 }
 
 .course-title {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.3px;
-    color: #87CEFA;
+    color: #8fd2fc;
     margin-bottom: 20px;
 }
 
 .course-desc {
     font-size: 16px;
     font-weight: 400;
-    color: #AFDAFC;
-    line-height: 1.7;
+    color: #8fd2fc;
     letter-spacing: 0.5px;
+    margin-bottom: 30px;
 }
 
 .footer {
-    background-color: #f5f6f8;
+    background-color: #3b3b3b;
     padding: 60px 0;
 }
 
 .courses-info-title {
     font-weight: 600;
-    font-size: 70px;
-    color: #1a1a1a;
+    font-size: 58px;
+    color: #fff;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .footer-row {
@@ -395,7 +403,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    color: #a2a2a4;
+    color: #fff;
 }
 
 .course-block {
@@ -408,7 +416,7 @@
     font-weight: 400;
     font-size: 50px;
     letter-spacing: 0.8px;
-    color: #000000;
+    color: #fff;
 }
 
 .course-count {
@@ -416,7 +424,17 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.5px;
-    color: #9a9a9b;
+    color: #fff;
+}
+
+.other-materials-link img {
+    filter: blur(100%);
+    transition: 0.4s;
+}
+
+.other-materials-link img:hover {
+    filter: blur(0%);
+    cursor: pointer;
 }
 
 @media (max-width: 1120px) {
@@ -486,8 +504,9 @@
 }
 
 @media (max-width: 578px) {
-    .navigation-holder {
+    .navigation {
         display: none;
+        position: relative;
     }
 
     .mob-btn {
@@ -495,10 +514,6 @@
         text-decoration: none;
         font-size: 60px;
         color: white;
-    }
-
-    .header-title-text {
-        font-size: 60px;
     }
 
     .join {
@@ -527,5 +542,11 @@
 
     .course-name {
         font-size: 24px;
+    }
+
+    .header-subtitle-text {
+        margin-top: 25px;
+        position: relative;
+        margin-left: 50px;
     }
 }
